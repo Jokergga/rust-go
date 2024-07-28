@@ -1,5 +1,5 @@
 [package]
-name = "rust-go"
+name = "ch1_string_str"
 version = "0.1.0"
 edition = "2021"
 
