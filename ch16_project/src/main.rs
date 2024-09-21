@@ -13,16 +13,16 @@
 //     unimplemented!()
 // }
 
-fn main() {
-    // let mut f1 = File::from("f1.txt");
-    // open(&mut f1);
-    // //read(&mut f1, &mut vec![]);
-    // close(&mut f1);
+// fn main() {
+//     // let mut f1 = File::from("f1.txt");
+//     // open(&mut f1);
+//     // //read(&mut f1, &mut vec![]);
+//     // close(&mut f1);
 
-    let s = "中国人";
-    let a = &s[0..3];
-    println!("{}",a);
-}
+//     let s = "中国人";
+//     let a = &s[0..3];
+//     println!("{}",a);
+// }
 
 struct Unit;
 trait SomeTrait {
@@ -38,4 +38,4 @@ fn main() {
 } 
 
 // 填空，让代码工作
-fn do_something_with_unit(u: __) {   }
+fn do_something_with_unit(u: Unit) {   }
