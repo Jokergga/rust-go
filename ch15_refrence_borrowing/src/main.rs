@@ -12,13 +12,14 @@ fn main() {
     let result: &str;
     {
         let r4 = &s;
-        result = fun(r4);
+        result = f(r4);
     }
 
     println!("{}", result);
 
 }
 
-fn fun<'a>(s: &'a str) -> &'a str {
+
+fn f<'a>(s: &'a str) -> &'a str {
     s
 }
